@@ -424,17 +424,17 @@ content-type: application/json
     "alamatSiswa": "Jl. Merdeka12"
 }
 
-###
+### GET SISWA ALL
 GET http://localhost:8000/api/siswa HTTP/1.1
 
 
-###
+### GET SISWA BY ID
 GET http://localhost:8000/api/siswa/3 HTTP/1.1
 
-###
+### DELETE SISWA
 DELETE  http://localhost:8000/api/siswa/2 HTTP/1.1
 
-###
+### UODATE SISWA
 PUT http://localhost:8000/api/siswa/3
 content-type: application/json
 
@@ -469,6 +469,22 @@ git push -u origin main
 7. Serializer untuk input/output
 8. Swagger/OpenAPI Docs
 
+## 1. INSTALL 
+
+```py
+#masuk ke venv
+source venv/bin/activate 
+which python
+
+#Install Swagger
+pip install drf-yasg
+
+```
+## 2. 
+
+
+
+=============================================================
 ## AUTH IMPLEMETASI :
 9. Filtering, Pagination
 10. Permission & AUTH

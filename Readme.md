@@ -456,3 +456,21 @@ git remote add origin https://github.com/edycoleee/django1.git
 git push -u origin main
 
 ```
+
+
+==========================================================
+## UPDATE IMPLEMETASI :
+1. Raw SQL 
+2. Unit Testing
+3. ViewSet + Router
+4. custem exception hanlder, 
+5. response wrapper (status,data,url), 
+6. versioning api (v1)
+7. Serializer untuk input/output
+8. Swagger/OpenAPI Docs
+
+## AUTH IMPLEMETASI :
+9. Filtering, Pagination
+10. Permission & AUTH
+- Swagger/OpenAPI Docs
+- Unit Testing
